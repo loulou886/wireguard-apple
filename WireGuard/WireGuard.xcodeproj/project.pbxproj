@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58F868B6253DBC4400704BC1 /* WireGuardKit in Frameworks */ = {isa = PBXBuildFile; productRef = 58F868B5253DBC4400704BC1 /* WireGuardKit */; };
+		58F868B8253DBC4D00704BC1 /* WireGuardKit in Frameworks */ = {isa = PBXBuildFile; productRef = 58F868B7253DBC4D00704BC1 /* WireGuardKit */; };
 		5F45417D21C1B23600994C13 /* UITableViewCell+Reuse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F45417C21C1B23600994C13 /* UITableViewCell+Reuse.swift */; };
 		5F45418C21C2D48200994C13 /* TunnelEditKeyValueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F45418B21C2D48200994C13 /* TunnelEditKeyValueCell.swift */; };
 		5F45419021C2D53800994C13 /* SwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F45418F21C2D53800994C13 /* SwitchCell.swift */; };
@@ -53,9 +55,9 @@
 		6F1075642258AE9800D78929 /* DeleteTunnelsConfirmationAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1075632258AE9800D78929 /* DeleteTunnelsConfirmationAlert.swift */; };
 		6F19D30422402B8700A126F2 /* ConfirmationAlertPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F19D30322402B8700A126F2 /* ConfirmationAlertPresenter.swift */; };
 		6F2449E8226587B90047B9E9 /* MacAppStoreUpdateDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2449E7226587B80047B9E9 /* MacAppStoreUpdateDetector.swift */; };
-		6F3E02E9228000F6001FE7E3 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3E02E8228000F6001FE7E3 /* MainMenu.swift */; };
 		6F29A9432278518D00DC6A6B /* RecentTunnelsTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F29A9422278518D00DC6A6B /* RecentTunnelsTracker.swift */; };
 		6F29A94722787B1600DC6A6B /* QuickActionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F29A94622787B1600DC6A6B /* QuickActionItem.swift */; };
+		6F3E02E9228000F6001FE7E3 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3E02E8228000F6001FE7E3 /* MainMenu.swift */; };
 		6F4DD16B21DA558800690EAE /* TunnelListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4DD16A21DA558800690EAE /* TunnelListRow.swift */; };
 		6F4DD16C21DA558F00690EAE /* NSTableView+Reuse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4DD16721DA552B00690EAE /* NSTableView+Reuse.swift */; };
 		6F4DD16E21DBEA0700690EAE /* ManageTunnelsRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4DD16D21DBEA0700690EAE /* ManageTunnelsRootViewController.swift */; };
@@ -274,6 +276,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		58F86899253DB33500704BC1 /* WireGuardKit */ = {isa = PBXFileReference; lastKnownFileType = folder; path = WireGuardKit; sourceTree = "<group>"; };
+		58F868AA253DB7FE00704BC1 /* WireGuardKit */ = {isa = PBXFileReference; lastKnownFileType = folder; path = WireGuardKit; sourceTree = "<group>"; };
 		5F45417C21C1B23600994C13 /* UITableViewCell+Reuse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Reuse.swift"; sourceTree = "<group>"; };
 		5F45418B21C2D48200994C13 /* TunnelEditKeyValueCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunnelEditKeyValueCell.swift; sourceTree = "<group>"; };
 		5F45418F21C2D53800994C13 /* SwitchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchCell.swift; sourceTree = "<group>"; };
@@ -305,9 +309,9 @@
 		6F16F46F243DB55600AA141B /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = WireGuard/ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		6F19D30322402B8700A126F2 /* ConfirmationAlertPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationAlertPresenter.swift; sourceTree = "<group>"; };
 		6F2449E7226587B80047B9E9 /* MacAppStoreUpdateDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacAppStoreUpdateDetector.swift; sourceTree = "<group>"; };
-		6F3E02E8228000F6001FE7E3 /* MainMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
 		6F29A9422278518D00DC6A6B /* RecentTunnelsTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTunnelsTracker.swift; sourceTree = "<group>"; };
 		6F29A94622787B1600DC6A6B /* QuickActionItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickActionItem.swift; sourceTree = "<group>"; };
+		6F3E02E8228000F6001FE7E3 /* MainMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
 		6F4DD16721DA552B00690EAE /* NSTableView+Reuse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSTableView+Reuse.swift"; sourceTree = "<group>"; };
 		6F4DD16A21DA558800690EAE /* TunnelListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunnelListRow.swift; sourceTree = "<group>"; };
 		6F4DD16D21DBEA0700690EAE /* ManageTunnelsRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageTunnelsRootViewController.swift; sourceTree = "<group>"; };
@@ -421,6 +425,7 @@
 			files = (
 				6B5CA6B1220DE4E900F126CF /* NetworkExtension.framework in Frameworks */,
 				6FDEF7E421846C1A00D8FBF6 /* libwg-go.a in Frameworks */,
+				58F868B8253DBC4D00704BC1 /* WireGuardKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +443,7 @@
 			files = (
 				6B5CA6B2220DE4F400F126CF /* NetworkExtension.framework in Frameworks */,
 				6FB1BDA121D4E00A00A991BF /* libwg-go.a in Frameworks */,
+				58F868B6253DBC4400704BC1 /* WireGuardKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -724,6 +730,7 @@
 				6F5D0C432183B4A4000F85AD /* Shared */,
 				6FF4AC16211EC46F002C96EB /* WireGuard */,
 				6F5D0C1B218352EF000F85AD /* WireGuardNetworkExtension */,
+				58F868AA253DB7FE00704BC1 /* WireGuardKit */,
 				6FF4AC15211EC46F002C96EB /* Products */,
 				6FF4AC452120B9E0002C96EB /* Frameworks */,
 			);
@@ -763,6 +770,7 @@
 			children = (
 				6FB1BDB621D4F8B800A991BF /* NetworkExtension.framework */,
 				6FDEF7E321846C1A00D8FBF6 /* libwg-go.a */,
+				58F86899253DB33500704BC1 /* WireGuardKit */,
 				6FB1BDA021D4E00A00A991BF /* libwg-go.a */,
 				6FF4AC462120B9E0002C96EB /* NetworkExtension.framework */,
 			);
@@ -816,9 +824,13 @@
 			buildRules = (
 			);
 			dependencies = (
+				586790C5253DBD9A005C24DA /* PBXTargetDependency */,
 				6FDEF7E221846C0000D8FBF6 /* PBXTargetDependency */,
 			);
 			name = WireGuardNetworkExtensioniOS;
+			packageProductDependencies = (
+				58F868B7253DBC4D00704BC1 /* WireGuardKit */,
+			);
 			productName = WireGuardNetworkExtension;
 			productReference = 6F5D0C1A218352EF000F85AD /* WireGuardNetworkExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
@@ -875,9 +887,13 @@
 			buildRules = (
 			);
 			dependencies = (
+				586790C3253DBD94005C24DA /* PBXTargetDependency */,
 				6FB1BD9F21D4DF7A00A991BF /* PBXTargetDependency */,
 			);
 			name = WireGuardNetworkExtensionmacOS;
+			packageProductDependencies = (
+				58F868B5253DBC4400704BC1 /* WireGuardKit */,
+			);
 			productName = WireGuardNetworkExtension;
 			productReference = 6FB1BD9121D4BFE600A991BF /* WireGuardNetworkExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
@@ -1435,6 +1451,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		586790C3253DBD94005C24DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 586790C2253DBD94005C24DA /* WireGuardKit */;
+		};
+		586790C5253DBD9A005C24DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 586790C4253DBD9A005C24DA /* WireGuardKit */;
+		};
 		6F5D0C21218352EF000F85AD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 6F5D0C19218352EF000F85AD /* WireGuardNetworkExtensioniOS */;
@@ -1919,6 +1943,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		586790C2253DBD94005C24DA /* WireGuardKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WireGuardKit;
+		};
+		586790C4253DBD9A005C24DA /* WireGuardKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WireGuardKit;
+		};
+		58F868B5253DBC4400704BC1 /* WireGuardKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WireGuardKit;
+		};
+		58F868B7253DBC4D00704BC1 /* WireGuardKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WireGuardKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6FF4AC0C211EC46F002C96EB /* Project object */;
 }
