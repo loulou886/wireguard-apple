@@ -13,7 +13,8 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "WireGuardKit",
-            targets: ["WireGuardKit"])
+            targets: ["WireGuardKit"]
+        )
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -22,11 +23,8 @@ let package = Package(
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
-        .target(
-            name: "WireGuardKit",
-            dependencies: []),
-        .testTarget(
-            name: "WireGuardKitTests",
-            dependencies: ["WireGuardKit"])
+        .target(name: "WireGuardKit", dependencies: ["libxml2"]),
+        .systemLibrary(name: "libxml2", providers: [.brew(["libxml2"])]),
+        .testTarget(name: "WireGuardKitTests", dependencies: ["WireGuardKit"])
     ]
 )
